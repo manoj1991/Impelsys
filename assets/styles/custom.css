@@ -14,7 +14,7 @@
     right: 0;
     width: 0;
     height: 0;
-    border-top: 470px solid #403e3e7a;
+    border-top: 470px solid #00a7ef9c;
     border-right: 500px solid transparent;
 }
 
@@ -55,9 +55,8 @@
     color: #222 !important;
 }
 
-
-@media only screen and (max-width: 767px)  {
-
+@media (max-width:767px)  {
+   
     .overlay {
         position: absolute;
         top: 125%;
@@ -102,5 +101,8 @@
         text-align: center;
         margin: auto;
     }
+    
 
 }
+
+

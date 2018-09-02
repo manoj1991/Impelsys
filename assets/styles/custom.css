@@ -56,52 +56,34 @@
 }
 
 @media (max-width:767px)  {
+    
    
-    .overlay {
-        position: absolute;
-        top: 125%;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    .mb-overlay {
+        padding: 0;
         width: 100%;
         height: 200px;
         background: #00a7ef;
-        border-top: 0;
-        border-right: 0;
-    }
-    .text {
-        color: white;
-        font-size: 2em;
-        position: absolute;
-        top: 38%;
-        left: 39%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(0, -0%);
-        text-align: center;
-    }
-    .overlay2 {
-        position: absolute;
-        top: 250%;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100px;
-        background: #f78247;
-    }
-    .strt-btn {
-        color: white;
-        position: absolute;
-        top: 9%;
-        left: 38%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(0%, 35%);
-        text-align: center;
-        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
+    .mb-overlay2 {
+        padding: 0;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f78247;
+    }
+    .mb-strt-btn {
+        text-align: center;
+        border-radius: 0px;
+        background: #fff;
+        border: 1px solid #fff;
+        color: #222 !important;        
+    }
 
 }
 

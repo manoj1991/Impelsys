@@ -55,8 +55,7 @@
     color: #222 !important;
 }
 
-@media (max-width:767px)  {
-    
+@media (max-width:767px)  {   
    
     .mb-overlay {
         padding: 0;
@@ -84,7 +83,9 @@
         border: 1px solid #fff;
         color: #222 !important;        
     }
-
+    h1{
+        color:#fff;
+    }
 }
 
 
